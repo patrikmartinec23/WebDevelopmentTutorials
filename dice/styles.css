@@ -1,0 +1,80 @@
+:root {
+  background: #232323;
+}
+
+body {
+  margin: 0;
+}
+
+.box {
+  height: fit-content;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  color: #b9142d;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  border-radius: 5px;
+  width: 75%;
+  height: fit-content;
+  margin: auto;
+  margin-top: 65px;
+}
+
+* {
+  color: white;
+  font-family: "MuseoModerno", sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  height: fit-content;
+  border-radius: 5px;
+}
+
+.dice p {
+  font-size: 1.5rem;
+  border-radius: 5px;
+  padding: 16px;
+  text-align: center;
+  margin: 0;
+}
+
+.foot {
+  display: flex;
+  justify-content: end;
+  margin-top: 100px;
+}
+
+.foot p {
+  color: #b9142d;
+}
+
+img {
+  padding: 10px;
+  width: 70%;
+  height: 70%;
+  padding: 12px;
+  margin: auto;
+  margin-bottom: 24px;
+  opacity: 85%;
+}
+
+.dice {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  height: fit-content;
+  border: solid 2px #a01a58;
+  border-radius: 5px;
+}
